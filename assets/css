@@ -1,0 +1,67 @@
+/* assets/css/style.css */
+
+/* General body styling */
+body {
+  font-family: "JetBrains Mono", monospace;
+  background-color: #0d1117; /* dark GitHub background */
+  color: #c9d1d9;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #58a6ff;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+/* Links */
+a {
+  color: #79c0ff;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+a:hover {
+  text-decoration: underline;
+  color: #58a6ff;
+}
+
+/* Writeup cards */
+.writeup-card {
+  background: #161b22;
+  padding: 1.2rem;
+  margin: 1.5rem 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.writeup-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 0px 15px rgba(56,139,253,0.4);
+}
+.writeup-card h2 {
+  margin-top: 0;
+  color: #79c0ff;
+}
+.writeup-card p {
+  color: #c9d1d9;
+}
+
+/* Horizontal rule */
+hr {
+  border: 0;
+  height: 1px;
+  background: #30363d;
+  margin: 2rem 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #8b949e;
+}
