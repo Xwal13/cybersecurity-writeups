@@ -1,10 +1,9 @@
 title: "Cybersecurity Writeups"
 description: "Bug bounty & security labs writeups by xwal13"
 theme: minima
-
-# Optional: GitHub Pages settings
+baseurl: "/cybersecurity-writeups"
 url: "https://xwal13.github.io"
-baseurl: "/cybersecurity-writeups"  
 
+# Custom head
 include:
-  - assets/css/style.css
+  - _includes/head-custom.html
