@@ -1,52 +1,50 @@
 /* ====== Global Layout ====== */
 body {
   font-family: "JetBrains Mono", monospace;
-  background-color: #0d1117;
+  background-color: #0b111b;
   color: #c9d1d9;
   line-height: 1.7;
   margin: 0 auto;
   max-width: 900px;
-  padding: 2rem;
+  padding: 2.5rem 2rem;
 }
 
-/* ====== Headings ====== */
-h1, h2, h3 {
-  font-weight: 700;
-  margin-top: 1.6rem;
-  margin-bottom: 1rem;
-  line-height: 1.3;
-}
-
-/* Main page title */
+/* ====== Main Title ====== */
 h1 {
-  font-size: 2.6rem;
+  font-size: 3rem;
   text-align: center;
-  color: #ffffff;
   background: linear-gradient(90deg, #58a6ff, #f85149, #f78166);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 2rem;
-  text-shadow: 0px 0px 8px rgba(88,166,255,0.4);
-  border-bottom: 2px solid #30363d;
+  text-shadow: 0 0 8px rgba(88,166,255,0.4);
+  margin-bottom: 2.5rem;
   padding-bottom: 0.5rem;
+  border-bottom: 2px solid #30363d;
+  font-weight: 900;
 }
 
-/* Subheadings */
+/* ====== Subheadings ====== */
 h2 {
+  font-size: 1.9rem;
   color: #58a6ff;
-  font-size: 1.8rem;
+  margin-top: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
 }
 
 h3 {
-  color: #79c0ff;
   font-size: 1.4rem;
+  color: #79c0ff;
+  margin-top: 1.4rem;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
 }
 
 /* ====== Links ====== */
 a {
   color: #79c0ff;
   text-decoration: none;
-  transition: color 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 a:hover {
@@ -54,23 +52,33 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ====== Cards ====== */
+/* ====== Cards for writeups ====== */
 .writeup-card {
   background: #161b22;
-  padding: 1.2rem;
+  border-left: 4px solid #58a6ff;
+  padding: 1.5rem 1.2rem;
   margin: 1.5rem 0;
-  border-radius: 10px;
-  box-shadow: 0px 0px 12px rgba(0,0,0,0.5);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .writeup-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0px 0px 18px rgba(88,166,255,0.3);
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(88,166,255,0.4);
 }
 
 .writeup-card h2 {
   margin-top: 0;
+}
+
+/* ====== Code blocks ====== */
+pre, code {
+  background-color: #0d1117;
+  color: #f0f6fc;
+  padding: 0.3rem 0.5rem;
+  border-radius: 6px;
+  overflow-x: auto;
 }
 
 /* ====== Footer ====== */
@@ -79,4 +87,12 @@ footer {
   margin-top: 3rem;
   font-size: 0.9rem;
   color: #8b949e;
+}
+
+/* ====== Optional: Horizontal rules ====== */
+hr {
+  border: none;
+  height: 1px;
+  background: #30363d;
+  margin: 2rem 0;
 }
