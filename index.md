@@ -3,6 +3,8 @@ layout: default
 title: Cybersecurity Writeups
 ---
 
+{% include custom-head.html %}
+
 ## 📂 Latest Writeups
 
 {% for post in site.posts limit:5 %}
