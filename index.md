@@ -1,5 +1,4 @@
 ---
-<link rel="stylesheet" href="/cybersecurity-writeups/assets/css/style.css">
 layout: default
 title: Cybersecurity Writeups
 ---
