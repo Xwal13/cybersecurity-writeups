@@ -1,10 +1,9 @@
 ---
-title: "Stored XSS — `href` attribute (double-quotes HTML-encoded)"
-date: 2025-09-20
 layout: post
-categories: [security, xss, pentest]
-tags: [xss, burp, writeup, vulnerability]
-summary: "Stored XSS in comment 'Website' field — payload placed into an anchor `href`. Reproduction steps using Burp (Proxy + Repeater)."
+title: "Stored XSS — href attribute (double-quotes HTML-encoded)"
+excerpt: "💉 PortSwigger lab showing stored XSS in the comment author Website field."
+---
+
 ---
 
 # Stored XSS — `href` attribute (double-quotes HTML-encoded)
