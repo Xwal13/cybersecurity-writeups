@@ -5,3 +5,6 @@ theme: minima
 # Optional: GitHub Pages settings
 url: "https://xwal13.github.io"
 baseurl: "/cybersecurity-writeups"  
+
+include:
+  - assets/css/style.css
