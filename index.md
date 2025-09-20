@@ -1,13 +1,5 @@
----
-layout: page
-title: "Cybersecurity Writeups"
-permalink: /
----
 
-# 🔐 Cybersecurity Writeups
 
-Welcome to my collection of **bug bounty** and **security lab writeups**.  
-This site documents hands-on practice from PortSwigger, TryHackMe, HackTheBox, and real bug bounty engagements.  
 
 ---
 
